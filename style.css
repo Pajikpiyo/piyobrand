@@ -1,0 +1,112 @@
+* {
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #7dcda8;
+    padding: 50px;
+    height: 10vh;
+    border-bottom: 10px solid #93baed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li .contact-btn {
+    background-color: #e84d5b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(191, 13, 13, 0.1);
+}
+
+.hero-content {
+    max-width: 40%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more {
+    background-color: #e84d5b;
+    color: #fff;
+}
+
+.learn-more:hover {
+    background-color: #c93b4a;
+}
+
+.book-meeting {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #e84d5b;
+}
+
+.book-meeting:hover {
+    background-color: #f1f1f1;
+}
+
+.strategy-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
